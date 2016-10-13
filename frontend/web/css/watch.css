@@ -1,0 +1,29 @@
+.left_col{
+    background-color: #FFF;
+    color: #000;
+    width: 300px!important;
+}
+.nav_title{
+    width: 300px!important;
+}
+.main_container .top_nav {
+    display: block;
+    margin-left: 300px;
+}
+.modal-dialog {
+    margin: 30px auto;
+    width: 980px;
+}
+
+.form-group {
+    float: left;
+    width: 50%;
+}
+.modal-body {
+    overflow: hidden;
+    padding: 15px 0;
+}
+#cammodal img {
+    height: 180px;
+    width: 180px;
+}
