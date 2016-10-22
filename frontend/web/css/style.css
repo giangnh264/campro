@@ -8,7 +8,9 @@ body{
     background-color: #add1e7;
     border: 1px solid #add1e7;
     color: #000;
-    padding: 5px 10px;
+    border: 1px solid #ADD1E7;
+    height: 30px;
+    margin: 0 15px;
 }
 .cam_search{
     position: relative;
@@ -48,9 +50,7 @@ body{
     line-height: 35px;
     border: 1px solid #7AC4EE;
 }
-.cam_show_select li{
-    margin-right: 20px;
-}
+
 .cam_res {
     border-bottom: 1px solid #000;
     height: 35px;
@@ -64,6 +64,13 @@ body{
 .icon_play{
     display: block;
     background-image: url("../images/icon_play.png");
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+}
+.icon_shutdown{
+    display: block;
+    background-image: url("../images/icon_shutdown.png");
     width: 25px;
     height: 25px;
     background-size: 100%;
@@ -92,20 +99,14 @@ body{
     background-size: 100%;
 }
 
-.cam_res li {
-    margin-right: 13px;
-}
+
 .cam_res li:last-child{
     margin: 0!important;
 }
 
-.table_view_sc {
-    margin-left: 30px;
-    padding: 5px 20px !important;
-}
-.table_view{
+.table_view {
     background-color: #b9d4e9;
-    border: 1px solid #7ac4ee;
+    overflow: hidden;
 }
 .icon_rec_1 {
     background-image: url("../images/rectang-1.png");
@@ -145,6 +146,34 @@ body{
 .cam_rec p {
     margin-top: 8px;
 }
+
 .cam_setup{
     background-color: #B9D4E9;
+}
+.show_error{
+    color: red;
+    text-align: center;
+    margin: 5px 0;
+}
+.control-label{
+    width: 20%;
+    float: left;
+}
+.nav_li {
+    margin: 0 30px;
+}
+.nav > li > a {
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.navbar-brand, .navbar-nav > li > a {
+    color: #ecf0f1 !important;
+    font-weight: 500;
+    line-height: 15px;
+    margin-left: 0 !important;
+}
+.top_nav .dropdown-menu li a {
+    padding: 7px 20px;
+    width: 100%;
 }

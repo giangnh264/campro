@@ -5,14 +5,8 @@
 </head>
 
 <body class="login">
-<div>
-
-    <div class="login_wrapper">
-        <div class="animate form login_form">
-            <?= $content ?>
-        </div>
-
-    </div>
-</div>
+<?= $content ?>
+<script src="https://colorlib.com/polygon/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://colorlib.com/polygon/build/js/custom.min.js"></script>
 </body>
 </html>

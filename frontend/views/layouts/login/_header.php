@@ -1,4 +1,3 @@
-<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -12,6 +11,10 @@
     <link href="https://colorlib.com/polygon/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="https://colorlib.com/polygon/build/css/custom.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/login.css" rel="stylesheet">
+    <link href="/css/define.css" rel="stylesheet">
+    <script src="https://colorlib.com/polygon/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="/js/smartwizard.js"></script>
 
-    <script src="/js/common.js"></script>
-</head>
+<!--    <script src="/js/common.js"></script>-->
